@@ -72,7 +72,7 @@ void ATimeRewindController::BeginPlay()
 			//if rewind manager exists, add collision object to tracked object list
 			if (timeRewindManager != nullptr)
 			{
-				timeRewindManager->AppendPhysicsObjects(boxCollision);
+				timeRewindManager->AppendPhysicsObject(boxCollision);
 			}
 		}
 	}
